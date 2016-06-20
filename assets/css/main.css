@@ -1,0 +1,75 @@
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  text-align: center;
+}
+.score-wrap{
+  font-size: 200%;
+  margin: 20px;
+}
+.simon {
+  height: 400px;
+  width: 400px;
+  border-radius: 9999px;
+  overflow: hidden;
+  margin: 0 auto;
+  border: 10px solid #777;
+}
+
+.clickable .quarter {
+  cursor: pointer;
+}
+
+.quarter {
+  width: 50%;
+  height: 50%;
+  float: left;
+  opacity: 0.4;
+}
+
+.quarter.on {
+  opacity: 1;
+}
+
+.red {
+  background: red;
+}
+.green {
+  background: green;
+}
+.yellow {
+  background: yellow;
+}
+.blue {
+  background: blue;
+}
+
+/*.red {
+  background: #FFAAAA;
+}
+.red.on{
+  background: #FF0000;
+}
+
+.green {
+  background: #AAFFAA;
+}
+.green.on{
+  background: #00FF00;
+}
+
+.blue {
+  background: #AAAAFF;
+}
+.blue.on{
+  background: #0000FF;
+}
+
+.yellow {
+  background: #FFFFAA;
+}
+.yellow.on{
+  background: #FFFF00;
+}*/
